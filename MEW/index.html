@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Ethereum Wallet - Client Side Ethereum</title>
-  <link rel="canonical" href="https://www.myetherwallet.com" />
+  <link rel="canonical" href="https://www.ethereumchamber.net" />
   <meta name="description" content="Open-Source & Client-Side Ether Wallet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,9 +21,9 @@
   <meta name="msapplication-config" content="images/fav/browserconfig.xml">
   <meta name="theme-color" content="#163151">
 
-  <meta property="og:url"         content="https://www.MyEtherWallet.com" />
-  <meta property="og:title"       content="MyEtherWallet.com" />
-  <meta property="og:description" content="MyEtherWallet: Open-Source & Client-Side Ether Wallet" />
+  <meta property="og:url"         content="https://www.ethereumchamber.net" />
+  <meta property="og:title"       content="ethereumchamber.net" />
+  <meta property="og:description" content="EthereumChamber: Open-Source & Client-Side Ether Wallet" />
 </head>
 
 <body>
@@ -33,7 +33,7 @@
   <section class="bg-gradient header-branding">
     <section class="container">
 
-       <a class="brand" href="https://www.myetherwallet.com/" aria-label="Go to homepage"> <img src="images/logo.png"   height="64px" width="245px" alt="MyEtherWallet" /></a> 
+       <a class="brand" href="https://www.ethereumchamber.net/" aria-label="Go to homepage"> <img src="images/logo.png"   height="64px" width="245px" alt="EthereumChamber" /></a> 
       
 
       <div class="tagline"><span style="max-width: 395px">Client-Sided Ethereum Wallet</span>
@@ -123,7 +123,7 @@
         </p>
 
         <div ng-show="browserProtocol=='https:'" class="alert alert-danger small" translate="NODE_Warning">
-          Your node must be HTTPS in order to connect to it via MyEtherWallet.com. You can [download the MyEtherWallet repo & run it locally](https://github.com/kvhnuke/etherwallet/releases/latest) to connect to any node. Or, get free SSL certificate via [LetsEncrypt](https://letsencrypt.org/)</a>.
+          Your node must be HTTPS in order to connect to it via ethereumchamber.net. You can [download the EthereumChamber repo & run it locally](https://github.com/kvhnuke/etherwallet/releases/latest) to connect to any node. Or, get free SSL certificate via [LetsEncrypt](https://letsencrypt.org/)</a>.
         </div>
 
         <section class="row">
@@ -224,7 +224,7 @@
 
       <p style="margin-top: 6em">
         <strong>New or confused?</strong>
-        <a href="https://myetherwallet.groovehq.com/knowledge_base/categories/getting-started-443" target="_blank">Read this first so you don't lose your ETH.</a>
+        <a href="https://EthereumChamber.groovehq.com/knowledge_base/categories/getting-started-443" target="_blank">Read this first so you don't lose your ETH.</a>
       </p>
       <p style="margin-top: 2em">
         <strong> Using a Ledger & TREZOR?</strong>
@@ -254,7 +254,7 @@
       <br />
       Save it now & back it up in a second location (not on your computer).
       <br />
-      <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-save-slash-backup-my-wallet" target="_blank">Learn More</a>
+      <a href="https://EthereumChamber.groovehq.com/knowledge_base/topics/how-do-i-save-slash-backup-my-wallet" target="_blank">Learn More</a>
       <br /><br />
       <a tabindex="0" role="button" class="btn btn-info" ng-class="fileDownloaded ? '' : 'disabled' " ng-click="continueToPaper()"> I promise I won't lose this file ever. Continue. </a>
       </p>
@@ -603,7 +603,7 @@
     <wallet-balance-drtv></wallet-balance-drtv>
     <hr />
     <div class="well">
-      <p translate="sidebar_donation"> MyEtherWallet is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
+      <p translate="sidebar_donation"> EthereumChamber is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
       <a class="btn btn-primary btn-block" ng-click="onDonateClick()" translate="sidebar_donate">DONATE</a>
       <div class="text-success text-center marg-v-sm" ng-show="tx.donate" translate="sidebar_thanks"> THANK YOU!!! </div>
     </div>
@@ -1025,7 +1025,7 @@
     <wallet-balance-drtv></wallet-balance-drtv>
     <hr />
     <div class="well">
-      <p translate="sidebar_donation"> MyEtherWallet is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
+      <p translate="sidebar_donation"> EthereumChamber is a free, open-source service dedicated to your privacy and security. The more donations we receive, the more time we spend creating new features, listening to your feedback, and giving you what you want. We are just two people trying to change the world. Help us?</p>
       <a class="btn btn-primary btn-block" ng-click="onDonateClick()" translate="sidebar_donate">DONATE</a>
       <div class="text-success text-center marg-v-sm" ng-show="tx.donate" translate="sidebar_thanks"> THANK YOU!!! </div>
     </div>
@@ -1213,7 +1213,7 @@
  
   
 
- <div class="text-center col-xs-12" style="margin-top: 100px;margin-bottom: -60px;"><a href="mailto:support@bity.com,support@myetherwallet.com?Subject={{orderResult.reference}}%20Issue%20regarding%20my%20Swap%20via%20MEW%20&Body=%0APlease%20include%20the%20below%20if%20this%20issue%20is%20regarding%20your%20order.%20%0A%0AREF%20ID%23%3A%20{{orderResult.reference}}%0A%0AAmount%20to%20send%3A%20{{orderResult.input.amount}}%20{{orderResult.input.currency}}%0A%0AAmount%20to%20receive%3A%20{{orderResult.output.amount}}%20{{orderResult.output.currency}}%0A%0APayment%20Address%3A%20{{orderResult.payment_address}}%0A%0ARate%3A%20{{swapOrder.swapRate}}%20{{swapOrder.swapPair}}%0A%0A"> Issue with your Swap? Contact support. </a></div>
+ <div class="text-center col-xs-12" style="margin-top: 100px;margin-bottom: -60px;"><a href="mailto:support@bity.com,support@ethereumchamber.net?Subject={{orderResult.reference}}%20Issue%20regarding%20my%20Swap%20via%20MEW%20&Body=%0APlease%20include%20the%20below%20if%20this%20issue%20is%20regarding%20your%20order.%20%0A%0AREF%20ID%23%3A%20{{orderResult.reference}}%0A%0AAmount%20to%20send%3A%20{{orderResult.input.amount}}%20{{orderResult.input.currency}}%0A%0AAmount%20to%20receive%3A%20{{orderResult.output.amount}}%20{{orderResult.output.currency}}%0A%0APayment%20Address%3A%20{{orderResult.payment_address}}%0A%0ARate%3A%20{{swapOrder.swapRate}}%20{{swapOrder.swapPair}}%0A%0A"> Issue with your Swap? Contact support. </a></div>
 
 </main>
 <!-- / Swap Page -->
@@ -1841,7 +1841,7 @@
       <div class="input-group">
         <input class="form-control"
                type="text"
-               placeholder="myetherwallet"
+               placeholder="EthereumChamber"
                ng-model="objENS.name"
                ng-keyup="$event.keyCode==13 && checkName()"
                ng-change="nameOnChange()"
@@ -2123,7 +2123,7 @@
       <!-- Name -->
       <label>Name</label>
       <div class="input-group">
-        <input class="form-control" type="text" placeholder="myetherwallet" readonly ng-model="objENS.name"/>
+        <input class="form-control" type="text" placeholder="EthereumChamber" readonly ng-model="objENS.name"/>
         <div class="input-group-btn"><a class="btn btn-default">.eth</a></div>
       </div>
       <!-- / Name -->
@@ -2505,7 +2505,7 @@
 
   <h1 translate="NAV_Help"> Help </h1>
 
-  <p translate="HELP_Desc">Do you see something missing? Have another question? <a href="mailto:support@myetherwallet.com" target="_blank"> Get in touch with us</a>, and we will not only answer your question, we will update this page to be more useful to people in the future!</p>
+  <p translate="HELP_Desc">Do you see something missing? Have another question? <a href="mailto:support@ethereumchamber.net" target="_blank"> Get in touch with us</a>, and we will not only answer your question, we will update this page to be more useful to people in the future!</p>
 
  <article class="collapse-container">
     <div ng-click="hRecent = !hRecent">
@@ -2515,7 +2515,7 @@
     <div ng-show="!hRecent">
       <ul>
         <li><a href="https://www.reddit.com/r/ethereum/comments/47nkoi/psa_check_your_ethaddressorg_wallets_and_any/d0eo45o" target="_blank"><span class="text-danger" translate="HELP_Warning">If you created a wallet or downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details.</span></a></li>
-        <li><a href="https://myetherwallet.groovehq.com/help_center" target="_blank"> This page is slowly being deprecated. Please check out our more up-to-date and searchable Knowledge Base. </a></li>
+        <li><a href="https://EthereumChamber.groovehq.com/help_center" target="_blank"> This page is slowly being deprecated. Please check out our more up-to-date and searchable Knowledge Base. </a></li>
       </ul>
     </div>
   </article>
@@ -2528,8 +2528,8 @@
     </div>
     <div ng-show="!hRemind">
       <ul>
-        <li translate="HELP_Remind_Desc_1">**Ethereum, MyEtherWallet.com & MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but we are not responsible for the lost Ether.</li>
-        <li translate="HELP_Remind_Desc_2">MyEtherWallet.com & MyEtherWallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</li>
+        <li translate="HELP_Remind_Desc_1">**Ethereum, ethereumchamber.net & EthereumChamber CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but we are not responsible for the lost Ether.</li>
+        <li translate="HELP_Remind_Desc_2">ethereumchamber.net & EthereumChamber CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</li>
         <li translate="HELP_Remind_Desc_3">If you do not save your private key & password, there is no way to recover access to your wallet or the funds it holds.  Back them up in multiple physical locations &ndash; not just on your computer!</li>
       </ul>
     </div>
@@ -2543,7 +2543,7 @@
       <h4 translate="HELP_0_Title"> 0. I'm new. What do I do? </h4>
     </div>
     <div ng-show="h0">
-      <p translate="HELP_0_Desc_1"> MyEtherWallet gives you the ability to generate new wallets so you can store your Ether yourself, not on an exchange. This process happens entirely on your computer, not our servers. Therefore, when you generate a new wallet, **you are responsible for safely backing it up**.</p>
+      <p translate="HELP_0_Desc_1"> EthereumChamber gives you the ability to generate new wallets so you can store your Ether yourself, not on an exchange. This process happens entirely on your computer, not our servers. Therefore, when you generate a new wallet, **you are responsible for safely backing it up**.</p>
       <ol>
         <li translate="HELP_0_Desc_2"> Create a new wallet. </li>
         <li translate="HELP_0_Desc_3"> Back the wallet up. </li>
@@ -2605,7 +2605,7 @@
   <article class="collapse-container">
     <div ng-click="h2b = !h2b">
       <a class="collapse-button" ><span ng-show="!h2b">+</span><span ng-show="h2b">-</span></a>
-      <h4 translate="HELP_2b_Title"> 2b. How do I safely / offline / cold storage with MyEtherWallet? </h4>
+      <h4 translate="HELP_2b_Title"> 2b. How do I safely / offline / cold storage with EthereumChamber? </h4>
     </div>
     <div ng-show="h2b">
       <ol>
@@ -2683,19 +2683,19 @@
   <article class="collapse-container">
     <div  ng-click="h5 = !h5">
       <a class="collapse-button"><span ng-show="!h5">+</span><span ng-show="h5">-</span></a>
-      <h4 translate="HELP_5_Title">5. How do I run MyEtherWallet.com offline/locally? </h4>
+      <h4 translate="HELP_5_Title">5. How do I run ethereumchamber.net offline/locally? </h4>
     </div>
     <div ng-show="h5">
-    <p translate="HELP_5_Desc_1"> You can run MyEtherWallet.com on your computer instead of from the GitHub servers. You can generatea a wallet completely offline and send transactions from the "Offline Transaction" page. </p>
+    <p translate="HELP_5_Desc_1"> You can run ethereumchamber.net on your computer instead of from the GitHub servers. You can generatea a wallet completely offline and send transactions from the "Offline Transaction" page. </p>
     <ol>
       <li translate="HELP_2b_Desc_1">Go to https://github.com/kvhnuke/etherwallet/releases/latest:</li>
       <li translate="HELP_2b_Desc_2">Click the file below that looks like dist-vX.X.X.zip</li>
       <li translate="HELP_2b_Desc_3">Move zip to an airgapped computer.</li>
       <li translate="HELP_2b_Desc_4">Unzip it and double-click `index.html`.</li>
-      <li translate="HELP_5_Desc_7">MyEtherWallet.com is now running entirely on your computer.</li>
+      <li translate="HELP_5_Desc_7">ethereumchamber.net is now running entirely on your computer.</li>
     </ol>
-    <p translate="HELP_5_Desc_8"> In case you are not familiar, you need to keep the entire folder in order to run the website, not just index.html. Don't touch or move anything around in the folder. If you are storing a backup of the MyEtherWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.</p>
-    <p translate="HELP_5_Desc_9"> As we are constantly updating MyEtherWallet.com, we recommend you periodically update your saved version of the repo. </p>
+    <p translate="HELP_5_Desc_8"> In case you are not familiar, you need to keep the entire folder in order to run the website, not just index.html. Don't touch or move anything around in the folder. If you are storing a backup of the EthereumChamber repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.</p>
+    <p translate="HELP_5_Desc_9"> As we are constantly updating ethereumchamber.net, we recommend you periodically update your saved version of the repo. </p>
     </div>
   </article>
 
@@ -2713,7 +2713,7 @@
       <ul>
         <li> Verify the URL you entered is correct. </li>
         <li> Verify the port you entered is correct. </li>
-        <li> Verify that if you are connecting to an http:// node you are running MyEtherWallet locally (NOT over https://). </li>
+        <li> Verify that if you are connecting to an http:// node you are running EthereumChamber locally (NOT over https://). </li>
         <li> Verify geth is running with <code>geth --rpc --rpccorsdomain "null" --keystore "dont_put_secret_files_here_ever"</code> or parity is running with <code>parity --rpccorsdomain "*" --keys-path "dont_put_secret_files_here_ever"</code> </li>
         <li> Verify your node is actually up and running. </li>
         <li> Try removing the node and adding it again. </li>
@@ -2760,10 +2760,10 @@
       <h4 translate="HELP_8_Title">8. What happens if your site goes down? </h4>
     </div>
     <div ng-show="h8">
-      <p translate="HELP_8_Desc_1">MyEtherWallet is not a web wallet. You don't have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain.</p>
-      <p translate="HELP_8_Desc_2">If MyEtherWallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't have to "get" your Ether out of MyEtherWallet because it's not in MyEtherWallet. It's in whatever wallet your generated via our site.</p>
+      <p translate="HELP_8_Desc_1">EthereumChamber is not a web wallet. You don't have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain.</p>
+      <p translate="HELP_8_Desc_2">If ethereumchamber.net goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't have to "get" your Ether out of EthereumChamber because it's not in EthereumChamber. It's in whatever wallet your generated via our site.</p>
       <p translate="HELP_8_Desc_3"> You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily now. See question #10 below. </p>
-      <p translate="HELP_8_Desc_4">In addition, the likelihood of us taking MyEtherWallet down is slim to none. It costs us almost nothing to maintain as we aren't storing any information. If we do take the domain down, it still is, and always will be, publicly available at <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank">https://github.com/kvhnuke/etherwallet</a>. You can download the ZIP there and run it locally. </p>
+      <p translate="HELP_8_Desc_4">In addition, the likelihood of us taking EthereumChamber down is slim to none. It costs us almost nothing to maintain as we aren't storing any information. If we do take the domain down, it still is, and always will be, publicly available at <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank">https://github.com/kvhnuke/etherwallet</a>. You can download the ZIP there and run it locally. </p>
     </div>
   </article>
 
@@ -2814,10 +2814,10 @@
   <article class="collapse-container">
     <div ng-click="h12 = !h12">
       <a class="collapse-button" ><span ng-show="!h12">+</span><span ng-show="h12">-</span></a>
-      <h4 translate="HELP_12_Title">12. How do I import a wallet created with MyEtherWallet into geth / Ethereum Wallet / Mist?</h4>
+      <h4 translate="HELP_12_Title">12. How do I import a wallet created with EthereumChamber into geth / Ethereum Wallet / Mist?</h4>
     </div>
     <div ng-show="h12">
-      <p class="strong" translate="HELP_12_Desc_1"> Using an Geth/Mist JSON file from MyEtherWallet v2+....</p>
+      <p class="strong" translate="HELP_12_Desc_1"> Using an Geth/Mist JSON file from EthereumChamber v2+....</p>
       <ol>
         
           <li translate="HELP_12_Desc_2"> Go to the "View Wallet Info" page.</li>
@@ -2876,10 +2876,10 @@
   <article class="collapse-container">
     <div ng-click="h14 = !h14" >
       <a class="collapse-button"><span ng-show="!h14">+</span><span ng-show="h14">-</span></a>
-        <h4 translate="HELP_14_Title"> 14. Some sites randomize (seed) the private key generation via mouse movements. MyEtherWallet.com doesn't do this. Is the random number generation for MyEtherWallet safe?</h4>
+        <h4 translate="HELP_14_Title"> 14. Some sites randomize (seed) the private key generation via mouse movements. ethereumchamber.net doesn't do this. Is the random number generation for EthereumChamber safe?</h4>
       </div>
       <div ng-show="h14">
-        <p translate="HELP_14_Desc_1">While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren't unsafe, it's just that we (and tons of other crypto experments) believe in window.crypto. In addition, MyEtherWallet.com can be used on touch devices. Here's a <a href="https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm" target="_blank">conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto</a> and here is the <a href="https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto" target="_blank">the window.crypto w3 spec</a>.</p>
+        <p translate="HELP_14_Desc_1">While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren't unsafe, it's just that we (and tons of other crypto experments) believe in window.crypto. In addition, ethereumchamber.net can be used on touch devices. Here's a <a href="https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm" target="_blank">conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto</a> and here is the <a href="https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto" target="_blank">the window.crypto w3 spec</a>.</p>
     </div>
   </article>
 
@@ -2993,9 +2993,9 @@
     <div ng-show="hSec">
       <p translate="HELP_Sec_Desc_1"> If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. </p>
       <ul>
-        <li translate="HELP_Sec_Desc_2">We've been up and running since August 2015. If you search for <a href="https://www.reddit.com/search?q=myetherwallet" target="_blank" />"myetherwallet" on reddit</a>, you can see numerous people who use us with great success.</li>
+        <li translate="HELP_Sec_Desc_2">We've been up and running since August 2015. If you search for <a href="https://www.reddit.com/search?q=EthereumChamber" target="_blank" />"EthereumChamber" on reddit</a>, you can see numerous people who use us with great success.</li>
         <li translate="HELP_Sec_Desc_3">We aren't going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere.</li>
-        <li translate="HELP_Sec_Desc_4"> Check the URL -- This site is being served through GitHub and you can see the source code here: <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank">https://github.com/kvhnuke/etherwallet/tree/gh-pages</a> to the domains: <a href="http://kvhnuke.github.io/etherwallet/" target="_blank">http://kvhnuke.github.io/etherwallet/</a> and <a href="https://www.myetherwallet.com" target="_blank">https://www.myetherwallet.com</a>. You can verify it's hosted at GitHub by using <a href="http://viewdns.info/dnsrecord/?domain=myetherwallet.com" target="_blank">http://viewdns.info/dnsrecord/?domain=myetherwallet.com</a> - last two A record IPs are owned by GitHub for their custom domain hosting.</li>
+        <li translate="HELP_Sec_Desc_4"> Check the URL -- This site is being served through GitHub and you can see the source code here: <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank">https://github.com/kvhnuke/etherwallet/tree/gh-pages</a> to the domains: <a href="http://kvhnuke.github.io/etherwallet/" target="_blank">http://kvhnuke.github.io/etherwallet/</a> and <a href="https://www.ethereumchamber.net" target="_blank">https://www.ethereumchamber.net</a>. You can verify it's hosted at GitHub by using <a href="http://viewdns.info/dnsrecord/?domain=ethereumchamber.net" target="_blank">http://viewdns.info/dnsrecord/?domain=ethereumchamber.net</a> - last two A record IPs are owned by GitHub for their custom domain hosting.</li>
         <li translate="HELP_Sec_Desc_5"> For generating wallets, you can download the <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages">source code</a>. See #5 above.</li>
         <li translate="HELP_Sec_Desc_6"> Do a test run and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred.</li>
         <li translate="HELP_Sec_Desc_8"> If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! </li>
@@ -3012,9 +3012,9 @@
     </div>
     <div ng-show="!hContact">
       <ul>
-        <li><a href="mailto:support@myetherwallet.com" target="_blank"> Email Us </a></li>
+        <li><a href="mailto:support@ethereumchamber.net" target="_blank"> Email Us </a></li>
         <li><a href="https://github.com/kvhnuke/etherwallet/issues" target="_blank"> Open a GitHub Issue</a></li>
-        <li><a href="https://twitter.com/myetherwallet" target="_blank"> Follow Us on Twitter </a></li>
+        <li><a href="https://twitter.com/EthereumChamber" target="_blank"> Follow Us on Twitter </a></li>
       </ul>
     </div>
   </article>
@@ -3068,7 +3068,7 @@
       <div class="col-xs-12">
         <h1 translate="BULK_SuccessMsg">Success! Your wallets have been generated.</h1>
 
-        <div class="alert alert-danger" translate="ERROR_28">**You need your Keystore/JSON File & password or Private Key** to access this wallet in the future. Please save & back it up externally! There is no way to recover a wallet if you do not save it. Read the [help page](https://www.myetherwallet.com/#help) for instructions.</div>
+        <div class="alert alert-danger" translate="ERROR_28">**You need your Keystore/JSON File & password or Private Key** to access this wallet in the future. Please save & back it up externally! There is no way to recover a wallet if you do not save it. Read the [help page](https://www.ethereumchamber.net/#help) for instructions.</div>
       </div>
 
       <article class="col-md-9">
@@ -3182,7 +3182,7 @@
     <section class="row"><section class="row">
 
       <div class="col-sm-3 footer-1">
-        <p aria-hidden="true"><a href="https://www.myetherwallet.com/"><img src="images/logo.png" height="55px" width="auto" alt="Ether Wallet" /></a></p>
+        <p aria-hidden="true"><a href="https://www.ethereumchamber.net/"><img src="images/logo.png" height="55px" width="auto" alt="Ether Wallet" /></a></p>
         <p>
           <span translate="FOOTER_1">Tool for easily & securely interacting with the Ethereum network.</span>
           <br />
@@ -3233,13 +3233,13 @@
 
         <h2 class="modal-title text-info" translate="FOOTER_4">Disclaimer</h2>
 
-        <p class="small"><strong> Translations of MyEtherWallet: </strong> The community is doing an amazing job translating MyEtherWallet into a variety of languages. However, MyEtherWallet can only verify the validity and accuracy of the information provided in English and, because of this, the English version of our website is the official text. </p>
+        <p class="small"><strong> Translations of EthereumChamber: </strong> The community is doing an amazing job translating EthereumChamber into a variety of languages. However, EthereumChamber can only verify the validity and accuracy of the information provided in English and, because of this, the English version of our website is the official text. </p>
 
-        <p class="small"><strong>Always backup your keys: </strong> MyEtherWallet.com & MyEtherWallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</p>
+        <p class="small"><strong>Always backup your keys: </strong> ethereumchamber.net & EthereumChamber CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</p>
 
-        <p class="small"><strong>We are not responsible for any loss: </strong> Ethereum, MyEtherWallet.com & MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development. While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but we are not responsible for the lost Ether.</p>
+        <p class="small"><strong>We are not responsible for any loss: </strong> Ethereum, ethereumchamber.net & EthereumChamber CX, and some of the underlying Javascript libraries we use are under active development. While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but we are not responsible for the lost Ether.</p>
 
-        <p class="small"><strong>MIT License</strong> Copyright &copy; 2015-2017 MyEtherWallet LLC</p>
+        <p class="small"><strong>MIT License</strong> Copyright &copy; 2015-2017 EthereumChamber LLC</p>
 
         <p class="small">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 
