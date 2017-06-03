@@ -2406,7 +2406,7 @@ fieldset[disabled] .btn-default:hover {
 .open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
     color: #fff;
-    background-color: #095f79;
+    background-color: #821d2c;
     border-color: #074c61;
     transition: all .25s ease
 }
