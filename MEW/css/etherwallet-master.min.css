@@ -2380,7 +2380,7 @@ fieldset[disabled] .btn-default:hover {
     background-color: #222
 }
 .btn-primary {
-    color: #821d2c;
+    color: #fff;
     background-color: #a81e1e;
     border-color: #821d2c;
     transition: all .25s ease
