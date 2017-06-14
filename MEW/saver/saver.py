@@ -1,9 +1,10 @@
 from flask import Flask
+from flask import request
 app = Flask(__name__)
 
 @app.route('/save', methods=['OPTIONS'])
 def saver():
-	return request.form
+	return request.get_json(force=True)
 
 if __name__ == '__main__':
   app.run( 
