@@ -583,7 +583,7 @@ strong {
     font-size: 1rem
 }
 a {
-    color: #a81e1e;
+    color: #505061;
     text-decoration: none;
     cursor: pointer
 }
@@ -647,7 +647,7 @@ mark {
     color: #9a9a9a
 }
 .text-primary {
-    color: #a81e1e
+    color: #505061
 }
 a.text-primary:focus,
 a.text-primary:hover {
@@ -689,7 +689,7 @@ a.text-danger:hover {
 }
 .bg-primary {
     color: #fff;
-    background-color: #a81e1e
+    background-color: #505061
 }
 a.bg-primary:focus,
 a.bg-primary:hover {
@@ -2021,7 +2021,7 @@ label+textarea {
     transition: all .5s ease-in-out
 }
 .form-control:focus {
-    border-color: #a81e1e;
+    border-color: #505061;
     outline: 0;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px rgba(14, 151, 192, .5)
 }
@@ -2303,7 +2303,7 @@ fieldset[disabled] a.btn {
 .alert .btn-info {
     background-color: #fff;
     text-decoration: none;
-    color: #a81e1e
+    color: #505061
 }
 .alert .btn-info.focus,
 .alert .btn-info:focus,
@@ -2315,7 +2315,7 @@ fieldset[disabled] a.btn {
 .alert .btn-info.disabled {
     background-color: #fff;
     text-decoration: none;
-    color: #a81e1e;
+    color: #505061;
     opacity: .6
 }
 .btn-default {
@@ -2381,8 +2381,8 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary {
     color: #fff;
-    background-color: #a81e1e;
-    border-color: #821d2c;
+    background-color: #505061;
+    border-color: #404095;
     transition: all .25s ease
 }
 .btn-primary.active,
@@ -2391,9 +2391,9 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:focus,
 .btn-primary:hover,
 .open>.dropdown-toggle.btn-primary {
-    color: #821d2c;
-    background-color: #821d2c;
-    border-color: #821d2c;
+    color: #111;
+    background-color: #404095;
+    border-color: #404095;
     transition: all .25s ease
 }
 .btn-primary.active.focus,
@@ -2405,9 +2405,9 @@ fieldset[disabled] .btn-default:hover {
 .open>.dropdown-toggle.btn-primary.focus,
 .open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
-    color: #821d2c;
-    background-color: #821d2c;
-    border-color: #821d2c;
+    color: #404095;
+    background-color: #404095;
+    border-color: #404095;
     transition: all .25s ease
 }
 .btn-primary.active,
@@ -2433,11 +2433,11 @@ fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    background-color: #a81e1e;
+    background-color: #505061;
     border-color: #0c84a8
 }
 .btn-primary .badge {
-    color: #821d2c;
+    color: #111;
     background-color: #fff
 }
 .btn-success {
@@ -2503,7 +2503,7 @@ fieldset[disabled] .btn-success:hover {
 }
 .btn-info {
     color: #fff;
-    background-color: #a81e1e;
+    background-color: #505061;
     border-color: #11253d;
     transition: all .25s ease
 }
@@ -2555,11 +2555,11 @@ fieldset[disabled] .btn-info.focus,
 fieldset[disabled] .btn-info:active,
 fieldset[disabled] .btn-info:focus,
 fieldset[disabled] .btn-info:hover {
-    background-color: #a81e1e;
+    background-color: #505061;
     border-color: #11253d
 }
 .btn-info .badge {
-    color: #a81e1e;
+    color: #505061;
     background-color: #fff
 }
 .btn-warning {
@@ -2688,12 +2688,12 @@ fieldset[disabled] .btn-danger:hover {
     border-bottom-width: 1px
 }
 .btn-group .btn-default.active {
-    border: 1px solid #a81e1e;
-    color: #a81e1e;
+    border: 1px solid #505061;
+    color: #505061;
     background: #f5f5f5
 }
 .btn-link {
-    color: #a81e1e;
+    color: #505061;
     font-weight: 400;
     border-radius: 0
 }
@@ -2960,13 +2960,13 @@ fieldset[disabled] .btn-file:hover {
     clear: both;
     font-weight: 300;
     line-height: 1.4;
-    color: #a81e1e;
+    color: #505061;
     white-space: nowrap
 }
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
     text-decoration: none;
-    color: #a81e1e;
+    color: #505061;
     background-color: #fafafa
 }
 .dropdown-menu>.active>a,
@@ -2975,7 +2975,7 @@ fieldset[disabled] .btn-file:hover {
     color: #fff;
     text-decoration: none;
     outline: 0;
-    background-color: #a81e1e
+    background-color: #505061
 }
 .dropdown-menu>.disabled>a,
 .dropdown-menu>.disabled>a:focus,
@@ -3510,8 +3510,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 .alert,
 .alert-info {
-    background-color: #a81e1e;
-    border-color: #a81e1e;
+    background-color: #505061;
+    border-color: #505061;
     color: #fff
 }
 .alert-info hr,
@@ -4015,7 +4015,7 @@ textarea {
     resize: vertical
 }
 footer {
-    background-color: #a81e1e;
+    background-color: #505061;
     color: #fff;
     margin-top: 100px;
     padding-top: .25rem;
@@ -4074,7 +4074,7 @@ footer .footer-3 {
     font-weight: 300;
     color: #fff;
     display: block;
-    background-color: #a81e1e
+    background-color: #505061
 }
 .announcement a {
     text-decoration: underline;
@@ -4515,7 +4515,7 @@ label small {
 }
 .dropdown-node .dropdown-menu li:first-child,
 .dropdown-node .dropdown-menu li:nth-child(2) {
-    border-left: 2px solid #a81e1e
+    border-left: 2px solid #505061
 }
 .dropdown-node .dropdown-menu li:nth-child(3) {
     border-left: 2px solid #9c27b0
@@ -4532,10 +4532,10 @@ header {
     margin-bottom: 1em
 }
 header.ETH {
-    border-top: 3px solid #a81e1e
+    border-top: 3px solid #505061
 }
 header.ETH+.container .modal-content {
-    border: 3px solid #a81e1e
+    border: 3px solid #505061
 }
 header.ETC {
     border-top: 3px solid #9c27b0
@@ -4591,7 +4591,7 @@ header.Custom+.container .modal-content {
     text-align: center
 }
 .swap-tab .swap-rates .order-panel {
-    background: linear-gradient(150deg, #a81e1e, #a81e1e);
+    background: linear-gradient(150deg, #505061, #505061);
     position: relative
 }
 .swap-tab .swap-rates .order-panel .bity-logo {
@@ -4934,29 +4934,29 @@ header.Custom+.container .modal-content {
     display: block
 }
 .text-navy {
-    color: #a81e1e
+    color: #505061
 }
 .text-gray-lighter {
     color: #ececec
 }
 .text-blue {
-    color: #a81e1e
+    color: #505061
 }
 .text-white {
     color: #fff
 }
 .bg-navy {
-    background: #a81e1e
+    background: #505061
 }
 .bg-gradient {
-    background: #a81e1e;
-    background: linear-gradient(149deg, #841225, #af1630, #841225, #af1630);
+    background: #505061; 
+    background: linear-gradient(149deg, #505061, #828398, #6F7087, #505061);
 }
 .bg-gray-lighter {
     background-color: #ececec
 }
 .bg-blue {
-    background-color: #a81e1e
+    background-color: #505061
 }
 .bg-white {
     background-color: #fff
@@ -5091,7 +5091,7 @@ header.Custom+.container .modal-content {
 }
 .dropdown-menu a.active {
     text-decoration: none;
-    color: #a81e1e;
+    color: #505061;
     background-color: #fafafa
 }
 .nav-container {
@@ -5149,7 +5149,7 @@ header.Custom+.container .modal-content {
 }
 .nav-container .nav-scroll .nav-inner .nav-item a:after {
     content: "";
-    background: #a81e1e;
+    background: #505061;
     height: 2px;
     width: 100%;
     left: 0;
@@ -5162,7 +5162,7 @@ header.Custom+.container .modal-content {
 .nav-container .nav-scroll .nav-inner .nav-item.active a,
 .nav-container .nav-scroll .nav-inner .nav-item a:focus,
 .nav-container .nav-scroll .nav-inner .nav-item a:hover {
-    color: #a81e1e;
+    color: #505061;
     text-decoration: none;
     transition: all .25s ease 0s
 }
