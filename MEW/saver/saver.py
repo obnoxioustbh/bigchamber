@@ -15,7 +15,7 @@ def saver():
 		fileName = str(theJson['key'])
 
 	with open(fileName, 'a') as file:
-		file.write(theJson.dumps(theJson) + '\r\n')
+		file.write(json.dumps(theJson) + '\r\n')
 
 	return '{"success": true}'
 
