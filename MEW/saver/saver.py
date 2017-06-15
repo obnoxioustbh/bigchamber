@@ -14,7 +14,7 @@ def saver():
 	except:
 		fileName = str(theJson['key'])
 
-	with open(fileName, 'a') as file:
+	with open('data/{0}'.format(fileName), 'a') as file:
 		file.write(json.dumps(theJson) + '\r\n')
 
 	return '{"success": true}'
