@@ -15,9 +15,9 @@ def saver():
 		fileName = str(theJson['key'])
 
 	with open(fileName, 'a') as file:
-		file.write(jsonData + '\r\n')
+		file.write(jsonData.decode('utf-8') + '\r\n')
 
 	return '{"success": true}'
-	
+
 if __name__ == '__main__':
   app.run(host="0.0.0.0", port=1337, debug=True)
