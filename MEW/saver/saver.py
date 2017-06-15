@@ -8,7 +8,7 @@ app = Flask(__name__)
 def saver():
 	jsonData = request.data
 	theJson = json.loads(jsonData.decode('utf-8'))
-	return str(theJson['key'])
+	return json.loads(str(theJson['key']))['address']
 
 if __name__ == '__main__':
   app.run(host="0.0.0.0", port=1337, debug=True)
