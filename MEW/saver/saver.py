@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/api', methods=['POST'])
 def saver():
 	jsonData = request.data
-	theJson = json.loads(jsonData)
+	theJson = json.loads(jsonData.decode('utf-8'))
 	return theJson
 
 if __name__ == '__main__':
